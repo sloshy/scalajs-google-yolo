@@ -86,7 +86,7 @@ This facade is based on a very new and in-development library so please let me k
 If anything breaks with the official Google YOLO library or it becomes bundleable, you are welcome to file an Issue to get it fixed.
 
 ## License
-This Scala.js library is licensed under the MIT license as defined in LICENSE.md.
+This Scala.js library is licensed under the MIT license as defined in the LICENSE file.
 The Google YOLO library is currently licensed under the Apache License 2.0 (as specified [within the source code][2]).
 Usage of this library in your projects means acceptance of the terms of both licenses.
 
