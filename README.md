@@ -37,7 +37,6 @@ val retrieveSettings = YoloLoader.makeRetrieveSettings("my-client-id", SignUpCon
 
 In each of these settings objects, a "context" is specified (listed in `io.medialog.googleyolo.context`).
 This context mirrors the contexts presented in the aforementioned guide from Google on the original library, indicating your intentions with the login data.
-Depending on the context, the result data might be slightly different according to your needs.
 
 Second, define a callback function that acts on a `GoogleYolo` object as defined in this facade:
 ```
