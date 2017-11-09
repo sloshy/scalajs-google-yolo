@@ -7,9 +7,7 @@ The original Google YOLO library is described [in this guide for one-tap sign-in
 You should read it and familiarize yourself with the concepts before using this library.
 
 ## Installation
-The library is currently not hosted in the Central repository so it must be published locally (for now).
-Clone this repository and run `sbt publishLocal` to publish to your local Ivy repository.
-Then, you can load the library from any of your Scala.js projects by adding this dependency:
+Add the library to any of your Scala.js projects by adding this dependency to your `build.sbt`:
 ```
 libraryDependencies += "io.medialog" %%% "scalajs-google-yolo" % "0.1.0
 ```
