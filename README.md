@@ -5,11 +5,12 @@ It allows you to access the library without complicated manual workarounds and e
 ## Background
 The original Google YOLO library is described [in this guide for one-tap sign-in][1] for websites using Google authentication.
 You should read it and familiarize yourself with the concepts before using this library.
+YOLO stands for "You Only Login Once" and is an emerging authentication standard for automatic social logins.
 
 ## Installation
 Add the library to any of your Scala.js projects by adding this dependency to your `build.sbt`:
 ```
-libraryDependencies += "io.medialog" %%% "scalajs-google-yolo" % "0.1.0
+libraryDependencies += "io.medialog" %%% "scalajs-google-yolo" % "0.1.0"
 ```
 
 ## Implementation
@@ -67,7 +68,7 @@ The Google YOLO library, as described in Google's documentation, is a manually p
 It is currently not available through NPM or other means for bundling or manually initiating.
 Thus, this library provides a more dynamic workaround: `YoloLoader` has a method to dynamically load the library whenever you choose, like so:
 ```
-YoloLoader.loadScript() // Dynamically loads the library script. Call this at any tme.
+YoloLoader.loadScript() // Dynamically loads the library script.
 ```
 
 This inserts the script tag for the library at the end of your document body.
@@ -75,7 +76,7 @@ You can use any method you wish, but it is preferred to use this method as it is
 
 **Warning:** If you do use this method, note that it will reinsert the library every time you call it, so make sure it is only called once!
 Preferably, you should load the script at the beginning of your program.
-A future version of this facade library will look into providing a safer alternative that does not rely on keeping state.
+A future version of this facade library will look into providing a safer alternative.
 
 ## Contributions & Feedback
 Any and all feedback, bug reports, and pull requests are welcome!
