@@ -13,9 +13,7 @@ organization := "io.medialog"
 
 // Build info
 
-crossScalaVersions in ThisBuild := Seq("2.12.4", "2.10.6", "2.11.11")
-// Uncomment this once SBT 1.0.x supports Scala 2.13
-//crossScalaVersions in ThisBuild ++= Seq("2.13.0-M2")
+crossScalaVersions in ThisBuild := Seq("2.12.4", "2.10.6", "2.11.11", "2.13.0-M2")
 
 scalaVersion in ThisBuild := crossScalaVersions.value.head
 
