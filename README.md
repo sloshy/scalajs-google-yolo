@@ -1,4 +1,6 @@
-# scalajs-google-yolo
+# scalajs-google-yolo (ABANDONED)
+**NOTE: This software is abandoned, as security concerns in the wrapping library have lead Google to withdraw its availability to the general public for use. In time, if something similar comes up that is more secure, I will likely write a new library to use that instead. This page is kept up for archival purposes only**
+
 This is a facade/wrapper for Google's "Open YOLO" library in Scala.js.
 It allows you to access the library without complicated manual workarounds and embed it anywhere in your web application code.
 
